@@ -50,7 +50,7 @@ export default class Movies extends React.Component{
     this.setState({movies:updatedMovies})
 
   }
-  deleteReview(id){
+  deleteReview(,id){
     let removeReview=this.state.movies.map((data)=>{
       if(id==data.imdbID){
         data.review=" "
